@@ -3,7 +3,7 @@ entering extended mode
 **Assignment1_complete_code.tex
 (Assignment1_complete_code.tex
 LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 68 languages loaded.
+Babel <3.9l> and hyphenation patterns for 65 languages loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
@@ -12,7 +12,7 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \c@part=\count79
 \c@section=\count80
 \c@subsection=\count81
-\c@subsubsection=\count82
+\c@subsubsection=\count83
 \c@paragraph=\count83
 \c@subparagraph=\count84
 \c@figure=\count85
@@ -582,7 +582,7 @@ $\OML/zplm/m/it/10 h \OT1/zplm/m/n/10 = (\OML/zplm/m/it/10 randn\OT1/zplm/m/n/1
 (\OT1/pplx/m/n/10 (-20) 1, 10000\OT1/zplm/m/n/10 ))/\OML/zplm/m/it/10 sqrt\OT1/
 zplm/m/n/10 (\OT1/pplx/m/n/10 (-20) 2\OT1/zplm/m/n/10 )\OT1/pplx/m/n/10 (-20) ;
 $ $\OML/zplm/m/it/10 sigmaz \OT1/zplm/m/n/10 = \OT1/pplx/m/n/10 (-20) 1; %\OML/
-zplm/m/it/10 Noisepower \OMS/zplm/m/n/10   \OML/zplm/m/it/10 assumedtobeunity[]
+zplm/m/it/10 Noisepower \OMS/zplm/m/n/10   \OML/zplm/m/it/10 assumedtobeunity[]
  $
  []
 
