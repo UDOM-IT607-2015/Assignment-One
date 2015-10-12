@@ -1,0 +1,35 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
+\beamer@sectionintoc {2}{What drives 5G?}{3}{0}{2}
+\beamer@sectionintoc {3}{Multiple challenges}{6}{0}{3}
+\beamer@sectionintoc {4}{Goals}{7}{0}{4}
+\beamer@sectionintoc {5}{5G TECHNOLOGIES}{8}{0}{5}
+\beamer@subsectionintoc {5}{1}{Dense Heterogeneous Networks (HetNets)}{8}{0}{5}
+\beamer@subsectionintoc {5}{2}{Self-Organizing Networks (SONs)}{9}{0}{5}
+\beamer@subsectionintoc {5}{3}{Software Defined (Cellular) Networks}{10}{0}{5}
+\beamer@subsectionintoc {5}{4}{Indoor positioning}{11}{0}{5}
+\beamer@subsectionintoc {5}{5}{Intelligent user-device assistance}{12}{0}{5}
+\beamer@sectionintoc {6}{CR in 5G}{14}{0}{6}
+\beamer@subsectionintoc {6}{1}{Meaning}{15}{0}{6}
+\beamer@subsectionintoc {6}{2}{Motivation}{16}{0}{6}
+\beamer@subsectionintoc {6}{3}{How it works}{17}{0}{6}
+\beamer@subsectionintoc {6}{4}{How it works}{18}{0}{6}
+\beamer@subsectionintoc {6}{5}{Objectives}{19}{0}{6}
+\beamer@subsectionintoc {6}{6}{Why may CR be interesting for 5G?}{20}{0}{6}
+\beamer@sectionintoc {7}{Architectures of Cognitive Cellular Networks}{22}{0}{7}
+\beamer@subsectionintoc {7}{1}{Non-Cooperative Architecture}{22}{0}{7}
+\beamer@sectionintoc {8}{Architectures of Cognitive Cellular Networks}{23}{0}{8}
+\beamer@subsectionintoc {8}{1}{Cooperative Architecture}{23}{0}{8}
+\beamer@sectionintoc {9}{Main in CR issues}{29}{0}{9}
+\beamer@sectionintoc {10}{Main in CR issues}{30}{0}{10}
+\beamer@sectionintoc {11}{Standards}{31}{0}{11}
+\beamer@sectionintoc {12}{Standards}{32}{0}{12}
+\beamer@sectionintoc {13}{LEARNING BASED ON PAST EXPERIENCE}{33}{0}{13}
+\beamer@sectionintoc {14}{Dynamic Spectrum Access (DSA)}{35}{0}{14}
+\beamer@subsectionintoc {14}{1}{Models of DSA}{38}{0}{14}
+\beamer@subsubsectionintoc {14}{1}{1}{Dynamic exclusive use model}{40}{0}{14}
+\beamer@subsubsectionintoc {14}{1}{2}{Open sharing model}{42}{0}{14}
+\beamer@subsubsectionintoc {14}{1}{3}{Hierarchical access model}{43}{0}{14}
+\beamer@sectionintoc {15}{Implementation Challenges}{45}{0}{15}
+\beamer@sectionintoc {16}{Future Research Directions}{46}{0}{16}
+\beamer@sectionintoc {17}{Conclusion}{47}{0}{17}
