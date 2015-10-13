@@ -1,0 +1,779 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+% LaTeX Template
+% Version 1.0 (10/11/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+
+\documentclass{beamer}
+
+\mode<presentation> {
+
+% The Beamer class comes with a number of default slide themes
+% which change the colors and layouts of slides. Below this is a list
+% of all the themes, uncomment each in turn to see what they look like.
+
+%\usetheme{default}
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+% As well as themes, the Beamer class has a number of color themes
+% for any slide theme. Uncomment each of these in turn to see how it
+% changes the colors of your current slide theme.
+
+%\usecolortheme{albatross}
+%\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{orchid}
+%\usecolortheme{rose}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
+
+%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
+%\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+
+%\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+}
+
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title[Short title]{Vehicular Ad Hoc Networks} % The short title appears at the bottom of every slide, the full title is only on the title page
+
+\author{Group 2 Topic:VANET} % Your name
+
+\institute[UDOM] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{
+UNIVERSITY OF DODOMA\\ % Your institution for the title page
+\medskip
+%\textit{rounupp@gmail.com} % Your email address
+}
+\date{\today} % Date, can be changed to a custom date
+
+\begin{document}
+
+\begin{frame}
+%\titlepage % Print the title page as the first slide
+\begin{center}
+	UNIVERSITY OF DODOMA\\
+\end{center}
+\begin{figure}
+\centering
+\includegraphics[width=0.2\linewidth]{UDOM_Image_logo}
+\begin{center}
+%	\\
+College of Informatics and Virtual Education\\
+School Of Informatics\\
+SUBJECT: Wireless Communication and Applications\\
+\end{center}
+\end{figure}
+
+	\begin{center}
+		Haruna I. Kiyungi HD/UDOM/206/T.2014\\
+		Adam Selemani HD/UDOM/330/T.2014\\
+		Yuda Mnyawami HD/UDOM/127/T.2014\\
+		Thobius Joseph HD/UDOM/131/T.2014\\
+	\end{center}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Outline} % Table of contents slide, comment this block out to remove it
+\tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+%------------------------------------------------
+
+
+\section{Introduction}
+
+\begin{frame}
+\frametitle{Introduction}
+\begin{block}{Introduction}
+\begin{itemize}
+\item Rapid advances in wireless technologies provide opportunities to utilize these technologies in support of advanced vehicle safety applications.\\
+\item Dedicated Short Range Communication (DSRC) offers the potential to effectively support vehicle-to vehicle and vehicle-to-roadside safety communications, which has become known as Vehicle Safety Communication (VSC) technologies.\\
+\item DSRC enables a new class of communication applications that will increase the overall safety and efficiency of the transportation system.\\
+
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+
+
+
+%------------------------------------------cont..
+
+
+
+
+\section{Motivation}
+\begin{frame}
+	\frametitle{Motivation}
+	\begin{block}{}
+		\begin{itemize}
+			\item Safety and transport efficiency
+			
+			\item Congestion costs the U.S. economy over 100 billion dollar  per year.
+			
+		   \item Vehicle occupancy has dropped 7% in the last two decades.
+			
+		   \item In Europe around 40,000 people die and more than 1.5 millions are injured every year on the roads
+			
+		    \item Traffic jams generate a tremendous waste of time and of fuel
+			
+		\end{itemize}
+	\end{block}
+	
+\end{frame}
+\section{What is VANET?}
+
+\begin{frame}
+	\frametitle{What is VANET?}
+	\begin{block}{Vehicular Ad Hoc Networks}
+		\begin{itemize}
+			\item Vehicular Ad Hoc Networks (VANETs) are autonomous and self-configurable wireless ad hoc networks and considered as a subset of Mobile Ad Hoc Networks (MANETs).\\
+			\item MANET is composed of self-organizing mobile nodes which communicate through a wireless link without any network infrastructure.\\
+		    \item A VANET uses vehicles as mobile nodes for creating a network within a range of 100 to 1000 meters. \\
+			\item VANET is developed for improving road safety and for providing the latest services of intelligent transport system (ITS).\\
+			\item The development and designing of efficient, self-organizing, and reliable VANET are a challenge because the node’s mobility is highly dynamic which results in frequent network disconnections and partitioning.\\ 
+			
+			
+		\end{itemize}
+	\end{block}
+	
+\end{frame}
+
+\begin{frame}
+	\frametitle{What is VANET?}
+	\begin{block}{Vehicular Ad Hoc Networks...}
+		\begin{itemize}
+			\item VANET protocols reduce the power consumption, transmission overhead, and network partitioning successfully by using multicast routing schemes.\\ 
+			\item In multicasting, the messages are sent to multiple specified nodes from a single source. The novel aspect of this paper is that it categorizes all VANET multicast routing protocols into geocast and cluster-based routing.
+		\end{itemize}
+	\end{block}
+	
+\end{frame}
+ 
+
+
+
+
+
+
+
+\begin{frame}
+	\frametitle{What is VANET?}
+	\begin{block}{Dedicated Short Range
+			Communication 
+			(DSRC)}
+		\begin{itemize}
+			\item Dedicated Short Range Communications (DSRC) is a short to medium range communications service 
+			that  was  developed  to  support vehicle	to vehicle and  vehicle to road side  communications.
+			\item DSRC is meant to be a complement to cellular communications by providing very high data transfer rates in circumstances where minimizing latency in the communication link and isolating relatively small communication zones are important.\\
+			\item DSRC is also known as WAVE (Wireless Access in Vehicular Environments).
+			It operates at 915 MHz 
+			Transmission rate of 0.5 Mb/s.
+			
+			
+		\end{itemize}
+	\end{block}
+	
+\end{frame}
+\begin{frame}
+	\frametitle{What is VANET?}
+	\begin{block}{Categories of applications of DSRC }
+		\begin{itemize}
+			\item Vehicle-to-Vehicle\\ 
+			Applications transmit messages from one vehicle to another.\\
+			\item Vehicle-to/from-Infrastructure \\
+			Applications in which messages are sent either to or from vehicle to a Road Side Unit (RSU).\\
+			\item Vehicle-to-Home\\ 
+			Application that is used when a vehicle is parked at the driver’s residence, for purposes such as transferring data to the vehicle.\\
+			\item Routing Based \\
+			Applications are used when the intended recipient is greater than one-hop away.
+			
+			
+		\end{itemize}
+	\end{block}
+	
+\end{frame}
+
+\section{Architecture}
+
+\begin{frame}
+	\frametitle{VANET Architecture?}
+	\begin{block}{Architecture of Vehicular Networking }
+		\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth, height=0.4\textheight]{VANETArchitecture}
+%\caption{}
+%\label{fig:VANETArchitecture}
+\end{figure}
+
+		\begin{itemize}
+			\item A  Vehicular  Ad  hoc  Network  (VANET)  is  a  kind  of  wireless  ad  hoc  network  to  provide communications  among  vehicles  and  nearby roadside equipments.  VANET  consists of vehicles with on board sensors and roadside units (RSUs) deployed along highways/sidewalks, which provides communications between vehicle to vehicle (V2V) and communications between vehicles to infrastructure (V2I).
+			
+			
+		\end{itemize}
+	\end{block}
+	
+\end{frame}
+%-------------------------------------------------
+
+
+
+
+
+
+%---------------------------------------------------
+
+
+\section{VANET Architecture?}
+\begin{frame}
+	\frametitle{VANET Architecture?}
+	\begin{block}{Architecture}
+		\begin{itemize}
+			\item Main Components\\
+			Introduce the main components of  VANETs architecture from a domain view.\\
+			\begin{enumerate}
+			\item Mobile domain 
+			\item Infrastructure domain
+			\item Generic domain
+			\end{enumerate}
+		
+			
+		\end{itemize}
+	\end{block}
+	
+\end{frame}
+
+%---------------------------------------
+%\subsection{VANET Architecture?}
+\begin{frame}
+	
+	\frametitle{VANET Architecture?}
+	\begin{block}{Architecture}
+	\begin{block}{Mobile Domain}
+		\begin{itemize}
+			\item Mobile domain consists of two parts.
+			The vehicle domain comprises all kinds of vehicles such as cars and buses.\\ 
+			\item The mobile device domain comprises all kinds of portable devices like personal navigation devices and smartphones.
+			
+			
+		\end{itemize}
+	\end{block}
+\end{block}
+	
+\end{frame}
+%--------------------------------------------
+
+%\subsection{VANET Architecture?}
+\begin{frame}
+	
+	\frametitle{VANET Architecture?}
+	\begin{block}{Architecture}
+		\begin{block}{Infrastructure domain}
+			\begin{itemize}
+				\item There are two domains:\\
+				\begin{enumerate}
+				\item The roadside infrastructure domain
+				\item The central infrastructure domain.
+				\end{enumerate}
+				 
+				\item The roadside infrastructure domain contains:
+				\begin{enumerate}
+			    \item Roadside unit entities like traffic lights. 
+		    	\item The central infrastructure domain contains infrastructure management centers such as traffic management centers (TMCs) and vehicle management centers
+				
+		     	\end{enumerate}
+				
+			\end{itemize}
+		\end{block}
+	\end{block}
+	
+\end{frame}
+%------------------------------------------
+
+\begin{frame}
+	
+	\frametitle{VANET Architecture?}
+	\begin{block}{Architecture}
+		\begin{block}{Infrastructure domain}
+			\begin{itemize}
+			    	\item Development of VANET architecture varies from region to region
+				\item In the CAR-2-X communication system which is pursued by the CAR-2-CAR communication consortium, the reference architecture is a little different.\\
+				\item This system architecture comprises three domains:
+				\begin{enumerate}
+					\item In-vehicle. 
+					\item Ad hoc.
+					\item Infrastructure domain.
+					
+				\end{enumerate}
+				
+			\end{itemize}
+		\end{block}
+	\end{block}
+	
+\end{frame}
+
+%--------------------------------------------
+
+\begin{frame}
+	
+	\frametitle{VANET Architecture?}
+	\begin{block}{Architecture}
+		\begin{block}{Infrastructure domain}
+			\begin{itemize}
+				\item In-vehicle domain is composed;
+				an on-board unit (OBU) 
+				one or multiple application units (AUs).
+				\begin{enumerate}
+				\item The connections between them are \item usually wired and sometimes wireless. 
+				\end{enumerate}
+				\item Ad hoc domain is composed:
+				
+				\begin{enumerate}
+				\item vehicles equipped with OBUs.  
+					 
+					\item roadside units(RSUs).
+				
+					
+				\end{enumerate}
+				\item An OBU can be seen as a mobile node of an ad hoc network and RSU is a static node likewise. An RSU can be connected to the Internet via the gateway; RSUs can communicate with each other directly or via multihop as well.
+				
+				
+			\end{itemize}
+		\end{block}
+	\end{block}
+	
+\end{frame}
+
+%------------------------------------------
+
+
+\begin{frame}
+	
+	\frametitle{VANET Architecture?}
+	\begin{block}{Architecture}
+		\begin{block}{Infrastructure domain}
+			\begin{itemize}
+				\item Infrastructure domain access:
+			\begin{enumerate}
+				\item RSUs and 
+				\item Hot spots (HSs). 
+			\end{enumerate}
+				
+				
+					\item OBUs may communicate with Internet via RSUs or HSs. In the absence of RSUs and HSs, OBUs can also communicate with each other by using cellular radio networks (GSM, GPRS, UMTS,WiMAX, and 4G)
+					
+				
+				
+			\end{itemize}
+		\end{block}
+	\end{block}
+	
+\end{frame}
+
+%-------------------------------------------------
+\begin{frame}
+	
+	\frametitle{VANET Architecture?}
+	\begin{block}{Architecture}
+		\begin{block}{Communication Architecture}
+			\begin{itemize}
+				
+				
+				
+				\item Communication Architecture. 
+				Communication types in VANETs can be categorized into four types. 
+				Describes the key functions of each communication type
+				\begin{enumerate}
+					\item \textit{In-vehicle communication,}\\ which is more and more necessary and important in VANETs research, refers to the in-vehicle domain. In-vehicle communication system can detect a vehicle’s performance and especially driver’s fatigue and drowsiness, which is critical for driver and public safety.
+				\item \textit{Vehicle-to-vehicle (V2V)}\\ communication can provide a data exchange platform for the drivers to share information and warning messages, so as to expand driver assistance.
+			\end{enumerate}
+				
+				
+				
+				
+			\end{itemize}
+		\end{block}
+	\end{block}
+	
+\end{frame}
+
+%-----------------------------------------
+
+
+
+
+%-----------------------------------------
+\begin{frame}
+	
+	\frametitle{VANET Architecture?}
+	\begin{block}{Architecture}
+		\begin{block}{Communication Architecture .....}
+			\begin{itemize}
+				
+				
+				
+				\item Communication Architecture. 
+				Communication types in VANETs can be categorized into four types. 
+				Describes the key functions of each communication type
+				\begin{enumerate}
+					\item \textit{Vehicle-to-road infrastructure (V2I) communication}\\ is another useful research field in VANETs. V2I communication enables real-time traffic/weather updates for drivers and provides environmental sensing and monitoring.
+					
+					\item \textit{Vehicle-to-broadband cloud (V2B) communication}\\ means that vehicles may communicate via wireless broadband mechanisms such as 3G/4G. As the broadband cloud may include more traffic information and monitoring data as well as infotainment, this type of communication will be useful for active driver assistance and vehicle tracking.
+					
+				\end{enumerate}
+				
+				
+				
+				
+			\end{itemize}
+		\end{block}
+	\end{block}
+	
+\end{frame}
+%-----------------------------------------
+\begin{frame}
+	
+	\frametitle{VANET Architecture?}
+	\begin{block}{Architecture}
+		\begin{block}{VANETs system domains}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.7\linewidth]{VANETSsystemdomains}
+				\caption{Main components Architecture
+				}
+				\label{fig:VANETSsystemdomains}
+			\end{figure}
+			
+		\end{block}
+	\end{block}
+	
+\end{frame}
+
+%------------------------------------------
+
+\begin{frame}
+	
+	\frametitle{VANET Architecture?}
+	\begin{block}{Architecture}
+		\begin{block}{Research Issues }
+		\begin{itemize}
+		\item Routing
+		\item Security
+	    \item Privacy
+		\item Applications
+		
+		\end{itemize}
+			
+		\end{block}
+	\end{block}
+	
+\end{frame}
+
+%-------------------------------------------
+
+\begin{frame}
+	
+	\frametitle{VANET Architecture?}
+	\begin{block}{Architecture}
+		\begin{block}{Routing }
+			\begin{itemize}
+				\item In VANETs, wireless communication has been a critical technology to support the achievement of many applications and services.
+				\item However, due to the characteristics of  VANETs such as high dynamic topology and intermittent connectivity, the existing routing algorithms in MANETs are not available for most application scenarios in VANETs.
+				There are three types of routing approaches
+				\item There are three types of routing approaches
+				\begin{enumerate}
+				
+				\item Geocast/broadcast
+				\item Multicast
+				\item Unicast
+		     	\end{enumerate}
+				
+			\end{itemize}
+			
+		\end{block}
+	
+\end{block}	
+	
+\end{frame}
+
+%--------------------------------------
+\begin{frame}
+	
+	\frametitle{VANET Architecture?}
+%	\begin{block}{Architecture}
+		\begin{block}{Routing }
+			\begin{itemize}
+
+				\item \textit{Geocast/Broadcast:}\\ With the requirement of distributing messages to unknown/unspecified destinations, the geocast/broadcast protocols are necessary in VANETs.
+
+			\item \textit{Multicast}: \\is necessary to communications among a group of vehicles in some vehicular situations, such as intersections, roadblocks, high traffic density, accidents, and dangerous road surface conditions
+			
+			\item \textit{Unicast:} \\Researchers investigate the unicast communication protocols for VANETs in three ways: 
+			(1) Greedy: nodes forward the packets to their farthest neighbors towards the destination, like improved greedy traffic-aware routing (GyTAR); 
+			(2) Opportunistic: nodes employ the carry-toward technique in order to opportunistically deliver the data to the destination, like topology-assist geo-opportunistic routing;
+			(3) Trajectory based: nodes calculate possible paths to the destination and deliver the data through nodes along one or more of those paths, like trajectory-based data forwarding (TBD)
+			
+			
+			
+				
+				
+			\end{itemize}
+			
+		\end{block}
+		
+%	\end{block}	
+	
+\end{frame}
+
+%------------------------------------------
+
+\begin{frame}
+	
+	\frametitle{VANET Architecture?}
+	%\begin{block}{Architecture}
+		\begin{block}{Security and Privacy}
+		
+			\begin{itemize}
+			\item Nowadays more and more intelligent on-board applications may store lots of personal information and vehicular trajectory data, which can disclose individuals’ activities, habits, and traces. These threats have to be overcome before communication architecture in VANETs is deployed.
+			
+			\end{itemize}
+		\end{block}
+	%\end{block}
+	
+\end{frame}
+
+
+%-----------------------------------------
+
+\begin{frame}
+	\frametitle{What is VANET?}
+	\begin{block}{VANET Characteristics}
+		\begin{itemize}
+			\item Rapid but some what predictable changing topology.\\ 
+			\item Fragmentation of the network.
+			\item Effective network diameter of a VANET is small.\\ 
+			\item Redundancy is limited both temporally and functionally.\\ 
+			\item It poses a number of unique security challenges.\\
+			
+		\end{itemize}
+	\end{block}
+	
+\end{frame}
+
+%-------------------------------------------------
+\begin{frame}
+	\frametitle{Application}
+	\begin{block}{Where can it be Applicable?}
+		\begin{itemize}
+			\item Applications in vehicular environment usually can increase the road safety, improve traffic efficiency, and provide entertainment to passengers. In most cases, VANETs applications can be roughly organized into two major classes:
+			safety applications
+			non safety applications
+			\begin{enumerate}
+			\item \textit{safety applications}\\
+			Traditionally the intention of safety applications is accident prevention, and thus this kind of applications is also the main motivation for developing vehicular ad hoc networks. 
+			Such applications like crash avoidance have a great requirement for the communication between vehicles or between vehicles and infrastructure.
+			
+			
+			\item \textit{non safety applications}\\
+			With respect to their specific intended purpose, nonsafety applications usually provide drivers or passengers with some useful information, such as weather or traffic information and the location of restaurants or hotels nearby.
+			
+			\end{enumerate}
+			
+			
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\section{Research Issues}
+
+\begin{frame}
+	\frametitle{Research Issues}
+	\begin{block}{Challenges and Future Trends}
+		\begin{itemize}
+			\item \textit{Fundament Limits and Opportunities}.-- 
+			Surprisingly little is known about the fundamental limitations and opportunities of VANETs communication from a more theoretical perspective. It is believe that avoiding accidents and minimizing resource usage are both important theoretical research challenges.
+			\item \textit{Standards}.-- 
+			The original IEEE 802.11 standard cannot well meet the requirement of robust network connectivity, and the current MAC parameters of the IEEE 802.11p protocol are not efficiently configured for a potential large number of vehicles.
+			\item \textit{Routing Protocols}.--
+			Although researchers have been presenting many effective routing protocols and algorithms such as CMV (cognitive MAC for VANET) and GyTAR (greedy traffic-aware routing), the critical challenge is to design good routing protocols for VANETs communication with high mobility of vehicles and high dynamic topology 
+			
+		
+			
+			
+			
+		\end{itemize}
+	\end{block}
+	
+\end{frame}
+\begin{frame}
+	\frametitle{Research Issues}
+	\begin{block}{Challenges and Future Trends ....}
+		\begin{itemize}
+			\item \textit{Connectivity}. 
+			The management and control of network connections among vehicles and between vehicles and network infrastructures is the most important issue of VANETs communication. 
+			Primary challenge in designing vehicular communication is to provide good delay performance under the constraints of vehicular speeds, high dynamic topology, and channel bandwidths
+			\item \textit{Cross-Layer}.-- 
+			In order to support real-time and multimedia applications, an available solution is to design cross-layer among original layers. In general, cross-layer protocols that operate in multiple layers are used to provide priorities among different flows and applications.
+			
+			\item \textit{Cooperative Communication}.-- 
+			VANETs as a type of cloud called mobile computing cloud (MCC), and present a broadband cloud in vehicular communication.
+			Thus, the cooperation between vehicular clouds and the Internet clouds in the context of vehicular management applications has become a critical challenge.
+			
+				
+		
+			
+			
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Research Issues}
+	\begin{block}{Challenges and Future Trends .... }
+		\begin{itemize}
+			\item \textit{Mobility}.-- 
+			Mobility that is the norm for vehicular networks makes the topology change quickly. Besides, the mobility patterns of vehicles on the same road will exhibit strong correlations. Address the idea that mobility plays a key role in vehicular protocol design and modeling.
+			
+			\item \textit{Security and Privacy}.-- 
+			Presents many solutions that come at significant drawbacks and the mainstream solution still relies on “key pair/certificate/signature.” For example, key distribution is a key solution for security protocols, but key distribution poses several challenges, such as different manufacturing companies and violating driver privacy. 
+			Besides, tradeoff of the security and privacy is the biggest challenge under the requirement of efficiency.
+			
+			
+			
+			
+			
+			
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Research Issues}
+	\begin{block}{Challenges and Future Trends .... }
+		\begin{itemize}
+			\item \textit{Validation}.-- 
+			It is necessary not only to assess the performance of VANETs in a real scenario but also to discover previously unknown and critical system properties. Besides, validation has become more and more difficult under the wider range of scenarios.
+			\item \textit{Generally The key challanges on VANET are}-- VANET  supports  diverse  range  of  on road  applications  and  hence  requires  efficient  and effective   radio   resource   management strategies.   This   includes   QoS   control,   capacity 
+			enhancement,  interference  control,  call  admission  control  (CAC),  bandwidth  reservation, 
+			packet  loss  reduction,  packet  scheduling  and  fairness  assurance
+			
+			
+			
+			
+			
+			
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\section{Conclusion}
+\begin{frame}
+	\frametitle{}
+	\begin{block}{Conclusion}
+		\begin{itemize}
+			\item \textit{The convergence of computing},-- telecommunications (fixed and mobile), and various kinds of services are enabling the deployment of different kinds of VANET technologies. 
+			Several VANET standards have been developed to improve vehicle-to-vehicle or vehicle-to-infrastructure communications. 
+			Challenges that still need to be addressed in order to enable the deployment of VANET technologies, infrastructures, and services cost-effectively, securely, and reliably.
+			
+			
+			
+			
+			
+			
+			
+			
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\section{End}
+
+\begin{frame}
+	\Huge{\centerline{The End}}
+	
+\end{frame}
+%------------------------------------------------
+
+%\begin{frame}[fragile] % Need to use the fragile option when verbatim is used in the slide
+%\frametitle{Citation}
+%An example of the \verb|\cite| command to cite within the presentation:\\~
+
+%This statement requires citation \cite{p1}.
+%\end{frame}
+
+%------------------------------------------------
+
+%\begin{frame}
+%\frametitle{References}
+%\footnotesize{
+%\begin{thebibliography}{99} % Beamer does not support BibTeX so references must be inserted manually as below
+%\bibitem[Kiyungi, 2015]{p1} Haruna Kiyungi (2015)
+%\newblock Title of the publication
+%\newblock \emph{Journal Name} 12(3), 45 -- 678.
+%\end{thebibliography}
+%}
+%\end{frame}
+
+%------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
