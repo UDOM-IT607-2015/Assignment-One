@@ -1,0 +1,113 @@
+\documentclass[]{beamer}
+% Class options include: notes, notesonly, handout, trans,
+%                        hidesubsections, shadesubsections,
+%                        inrow, blue, red, grey, brown
+
+% Theme for beamer presentation.
+\usepackage{beamerthemesplit} 
+% Other themes include: beamerthemebars, beamerthemelined, 
+%                       beamerthemetree, beamerthemetreebars  
+
+\title{OFDM SIMULATION BY MATLAB}    % Enter your title between curly braces
+\author{Charles Bundala\\Wilson Chanhemo\\Said A Kombo\\ Noel Chintelele}                 % Enter your name between curly braces
+\institute{University of Dodoma}      % Enter your institute name between curly braces
+\date{\today}  
+\linespread{1.5}                  % Enter the date or \today between curly braces
+
+\begin{document}
+
+% Creates title page of slide show using above information
+\begin{frame}
+ \titlepage
+\end{frame}     % typeset with the notes or notesonly class options
+\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{BlockDiagram}
+\caption{Simulation diagram}
+\label{fig:BlockDiagram}
+\end{figure}
+
+\begin{frame}{Results:Original Data}
+	\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{originaldata}
+\caption{Original Data}
+\label{fig:originaldata}
+\end{figure}
+	
+\end{frame}
+\begin{frame}{Results:Modulated Data Signal}
+	\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{QSPKModulation}
+\caption{Modulated Data}
+\label{fig:QSPKModulation}
+\end{figure}
+
+\end{frame}
+\begin{frame}{Results: IFFT Sub Cariers}
+\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{ifft}
+\caption{IFFT Sub carriers}
+\label{fig:ifft}
+\end{figure}
+
+\end{frame}
+\begin{frame}{Results: Cyclic Prefix Added to Remove ISI}
+	\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{addprefix}
+\caption{Prefix Adding}
+\label{fig:addprefix}
+\end{figure}
+\end{frame}
+\begin{frame}{Results: Sub Carrier Orthogonality}
+\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{orthogonality}
+\caption{}
+\label{fig:orthogonality}
+\end{figure}	
+\end{frame}
+\begin{frame}{Results: OFDM Signal Entering the Channel}
+\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{ofdmsignal}
+\caption{OFDM Signal}
+\label{fig:ofdmsignal}
+\end{figure}
+\end{frame}
+\begin{frame}{Results:OFDM Signal out of Channel(after passing)}
+	\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{OFDMChanneled}
+\caption{OFDM Signal from the Channel}
+\label{fig:OFDMChanneled}
+\end{figure}
+\end{frame}
+\begin{frame}{Results: Prefix Removed}
+	\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{CYCLICREMOVED}
+\caption{Prefix Removed}
+\label{fig:CYCLICREMOVED}
+\end{figure}	
+\end{frame}
+\begin{frame}{Results:FTT all Sub Carriers}
+	\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{FTT}
+\caption{FTT Action}
+\label{fig:FTT}
+\end{figure}	
+\end{frame}
+\begin{frame}{Results:Received Signal with Error}
+	\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{received}
+\caption{Received Signal}
+\label{fig:received}
+\end{figure}
+\end{frame}	
+\end{document}
